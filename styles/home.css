@@ -1,0 +1,19 @@
+/* home */
+.home {
+    background-color: #7f8386;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.home>div>h1 {
+    font-weight: 700;
+    margin: 0;
+}
+
+.home>div>h2 {
+    font-weight: 400;
+    margin-top: 0;
+    margin-bottom: 32px;
+}
