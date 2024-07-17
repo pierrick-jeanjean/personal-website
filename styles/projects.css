@@ -1,0 +1,10 @@
+.projects {
+    min-height: calc(100vh - 48px);
+    padding: 24px;
+}
+
+.projects>h2 {
+    font-weight: 400;
+    text-align: center;
+    text-decoration: underline;
+}
