@@ -3,7 +3,7 @@
 
 <head>
     <link rel="stylesheet" href="style.css" />
-    <link rel="stylesheet" href="styles/home.css"/>
+    <link rel="stylesheet" href="styles/home.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
@@ -26,6 +26,49 @@
             font-optical-sizing: auto;
             font-style: normal;
         }
+
+        @font-face {
+            font-family: 'fontello';
+            src: url('assets/fontello.woff') format('woff');
+            font-weight: normal;
+            font-style: normal;
+        }
+
+        [class^="icon-"]:before,
+        [class*=" icon-"]:before {
+            font-family: "fontello";
+            font-style: normal;
+            font-weight: normal;
+            speak: never;
+
+            display: inline-block;
+            text-decoration: inherit;
+            width: 1em;
+            margin-right: .2em;
+            text-align: center;
+            font-variant: normal;
+            text-transform: none;
+
+            line-height: 1em;
+
+            margin-left: .2em;
+
+            -webkit-font-smoothing: antialiased;
+            -moz-osx-font-smoothing: grayscale;
+
+        }
+
+        .icon-stackoverflow:before {
+            content: '\e800';
+        }
+
+        .icon-github-circled:before {
+            content: '\f09b';
+        }
+
+        .icon-linkedin-squared:before {
+            content: '\f30c';
+        }
     </style>
     <title>Pierrick Jeanjean | Personal website</title>
 </head>
@@ -38,6 +81,14 @@
                 <p>Hi, my name is</p>
                 <h1 class="edu-au-vic-wa-nt-hand">Pierrick Jeanjean.</h1>
                 <h2>I build, break and repair things for the web</h2>
+                <div>
+                    <a href="https://github.com/pierrick-jeanjean" target="_blank"><i
+                            class="icon-github-circled"></i></a>
+                    <a href="https://linkedin.com/in/pierrick-jeanjean" target="_blank"><i
+                            class="icon-linkedin-squared"></i></a>
+                    <a href="https://stackoverflow.com/users/2516878/pierrickjeanjean" target="_blank"><i
+                            class="icon-stackoverflow"></i></a>
+                </div>
             </div>
         </section>
     </main>
