@@ -1,4 +1,60 @@
 .projects {
-    min-height: 100vh;
+    min-height: calc(100vh - 72px);
+    padding: 36px 0;
     background-color: #f1f1f1;
+}
+
+.projects>h2 {
+    margin-top: 0;
+    margin-bottom: 36px;
+    text-align: center;
+    font-weight: 700;
+    text-decoration: underline;
+}
+
+.projects>ul {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    gap: 1rem;
+    margin-top: 0;
+    list-style: none;
+    padding: 0 24px;
+}
+
+.projects>ul>li {
+    border-top: 1px solid #cacaca;
+    border-left: 1px solid #cacaca;
+    border-right: 1px solid #cacaca;
+    border-bottom: 4px solid #296a9c;
+    border-bottom-left-radius: 0.5rem;
+    border-bottom-right-radius: 0.5rem;
+    background-color: white;
+}
+
+.projects>ul>li>figure {
+    max-height: 200px;
+    overflow: hidden;
+    position: relative;
+    margin: 0;
+}
+
+.projects>ul>li>figure>img {
+    width: 100%;
+}
+
+.projects>ul>li>figure>figcaption {
+    position: absolute;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, .75);
+    width: 100%;
+}
+
+.projects>ul>li>figure>figcaption>h3 {
+    color: white;
+    font-weight: 400;
+    padding-left: 1rem
+}
+
+.projects>ul>li>p {
+    padding: 0.5rem 1rem;
 }
