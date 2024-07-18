@@ -1,10 +1,11 @@
 /* home */
 .home {
-    background-color: #7f8386;
+    background-color: #296a9c;
     display: flex;
     justify-content: center;
     align-items: center;
     min-height: 100vh;
+    color:#fff;
 }
 
 .home>div>h1 {
@@ -24,5 +25,5 @@
 
 .home>div>div>a>i {
     font-size: 36px;
-    color:black;
+    color:#fff;
 }
