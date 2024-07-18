@@ -26,4 +26,9 @@
 .home>div>div>a>i {
     font-size: 36px;
     color:#fff;
+    padding:16px;
+}
+
+.home>div>div>a>i:hover {
+    border-bottom: 2px solid white;
 }
