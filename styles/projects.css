@@ -1,6 +1,6 @@
 .projects {
-    min-height: calc(100vh - 72px);
-    padding: 36px 0;
+    min-height: calc(100vh - 108px);
+    padding: 36px 0 72px 0;
     background-color: #f1f1f1;
 }
 
@@ -25,7 +25,7 @@
     border-top: 1px solid #cacaca;
     border-left: 1px solid #cacaca;
     border-right: 1px solid #cacaca;
-    border-bottom: 4px solid #296a9c;
+    border-bottom: 4px solid #0a1a27;
     border-bottom-left-radius: 0.5rem;
     border-bottom-right-radius: 0.5rem;
     background-color: white;
