@@ -45,7 +45,7 @@
 .projects>ul>li>figure>figcaption {
     position: absolute;
     bottom: 0;
-    background-color: rgba(0, 0, 0, .75);
+    background-color: rgba(10, 26, 39, .8);
     width: 100%;
 }
 
