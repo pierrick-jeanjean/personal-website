@@ -36,8 +36,6 @@
     overflow: hidden;
     position: relative;
     margin: 0;
-    border-bottom: 4px solid #296a9c;
-    background-color: #296a9c;
 }
 
 .projects>ul>li>figure>img {
