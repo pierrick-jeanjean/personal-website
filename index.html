@@ -19,6 +19,7 @@
     html {
       scroll-behavior: smooth;
     }
+
     body {
       margin: 0;
     }
@@ -64,8 +65,20 @@
       content: '\e800';
     }
 
+    .icon-location:before {
+      content: '\e801';
+    }
+
     .icon-github-circled:before {
       content: '\f09b';
+    }
+
+    .icon-suitcase:before {
+      content: '\f0f2';
+    }
+
+    .icon-birthday:before {
+      content: '\f1fd';
     }
 
     .icon-linkedin-squared:before {
@@ -175,7 +188,53 @@
       </ul>
     </section>
     <!-- about section -->
-    <section id="about-me" class="about-me"></section>
+    <section id="about-me" class="about-me">
+      <aside>
+        <div class="img-wrapper">
+          <img src="assets/avatar.png" />
+        </div>
+        <ul>
+          <li><i class="icon-birthday"></i> April 1992</li>
+          <li><i class="icon-location"></i> Lyon, France</li>
+          <li><i class="icon-suitcase"></i> Solution architect @ Volvo Group</li>
+        </ul>
+        <p>
+          👋 Hi, I'm Pierrick, nice to meet you 👋
+        </p>
+        <p>
+          🌟I'm a solution architect at Volvo Group, where I design and build IT solution based on
+          requirements/problematics gathered from the business. My background includes a strong experience as developer
+          and as
+          technical leader, helping me to encounter and resolve a lot of issue during development stage. In my free
+          time, you'll find me playing tennis/basket or reading a book/watching a movie. I also like to discover new
+          countries, next trip is already set to Edinburgh in Scotland
+        </p>
+      </aside>
+      <article>
+        <ul>
+          <li>
+            <h3 class="edu-au-vic-wa-nt-hand">Volvo Group - Solution architect</h3>
+            <p class="dates">January 2022 - Now</p>
+          </li>
+          <li>
+            <h3 class="edu-au-vic-wa-nt-hand">Volvo Group - Technical leader</h3>
+            <p class="dates">April 2021 - December 2021</p>
+          </li>
+          <li>
+            <h3 class="edu-au-vic-wa-nt-hand">Sopra Steria - Technical leader </h3>
+            <p class="dates">September 2017 - April 2021</p>
+          </li>
+          <li>
+            <h3 class="edu-au-vic-wa-nt-hand">Sopra Steria - Technical leader </h3>
+            <p class="dates">July 2018 - September 2018</p>
+          </li>
+          <li>
+            <h3 class="edu-au-vic-wa-nt-hand">Sopra Steria - Software engineer</h3>
+            <p class="dates">September 2014 - August 2017</p>
+          </li>
+        </ul>
+      </article>
+    </section>
   </main>
   <footer>
     <p>&copy; Copyright 2024</p>

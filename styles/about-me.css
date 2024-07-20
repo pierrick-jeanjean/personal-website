@@ -1,4 +1,87 @@
 .about-me {
     min-height: 100vh;
     background-color: #f1f1f1;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.about-me>* {
+    width: 100%;
+}
+
+.about-me>aside>.img-wrapper {
+    text-align: center;
+}
+
+.about-me>aside>.img-wrapper>img {
+    height: auto;
+    width: 40%;
+}
+
+.about-me>aside>p {
+    text-align: justify;
+    width: 90%;
+    margin: 1rem auto;
+}
+
+.about-me>aside>ul {
+    margin: 1rem auto;
+    padding: 0;
+    width: 90%;
+}
+
+.about-me>aside>ul>li {
+    list-style: none;
+}
+
+.about-me>article>ul {
+    list-style-type: none;
+    margin: 1rem;
+    padding:1rem;
+}
+
+.about-me>article>ul>li {
+    position: relative;
+    padding-bottom: 0.25rem;
+    padding-left: 1.5rem;
+}
+
+.about-me>article>ul>li:not(:last-child) {
+    margin-bottom: 3rem;
+}
+
+.about-me>article>ul>li:last-child {
+    margin-bottom: 2.5rem;
+}
+
+.about-me>article>ul>li:before {
+    content: '';
+    background-color: #0a1a27;
+    position: absolute;
+    bottom: 0px;
+    top: 0px;
+    left: 6px;
+    width: 3px;
+}
+
+.about-me>article>ul>li>h3 {
+    font-weight: 400;
+    margin-bottom: 0;
+}
+
+.about-me>article>ul>li>.dates {
+    padding: 0;
+    margin: 0;
+    font-size: 0.75rem;
+}
+
+@media (min-width:768px) {
+    .about-me>article {
+        width: calc(100% / 3 * 2);
+    }
+
+    .about-me>aside {
+        width: calc(100% / 3);
+        order: -1;
+    }
 }
