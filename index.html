@@ -2,9 +2,10 @@
 <html>
 
 <head>
+  <link rel="stylesheet" href="styles/header.css" />
   <link rel="stylesheet" href="styles/home.css" />
   <link rel="stylesheet" href="styles/projects.css" />
-  <link rel="stylesheet" href="styles/about.css" />
+  <link rel="stylesheet" href="styles/about-me.css" />
   <link rel="stylesheet" href="styles/footer.css" />
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -15,6 +16,9 @@
     rel="stylesheet">
   <!-- global (including font families) style -->
   <style>
+    html {
+      scroll-behavior: smooth;
+    }
     body {
       margin: 0;
     }
@@ -72,9 +76,24 @@
 </head>
 
 <body>
+  <header id="home">
+    <nav>
+      <ul>
+        <li>
+          <a href="#home" class="edu-au-vic-wa-nt-hand">Home</a>
+        </li>
+        <li>
+          <a href="#projects" class="edu-au-vic-wa-nt-hand" href="">Projects</a>
+        </li>
+        <li>
+          <a href="#about-me" class="edu-au-vic-wa-nt-hand" href="">About me</a>
+        </li>
+      </ul>
+    </nav>
+  </header>
   <main>
     <!-- home section -->
-    <section class="home">
+    <section id="home" class="home">
       <div>
         <p>Hi, my name is</p>
         <h1 class="edu-au-vic-wa-nt-hand">Pierrick Jeanjean.</h1>
@@ -88,7 +107,7 @@
       </div>
     </section>
     <!-- projects section -->
-    <section class="projects">
+    <section id="projects" class="projects">
       <ul>
         <li>
           <figure>
@@ -156,7 +175,7 @@
       </ul>
     </section>
     <!-- about section -->
-    <section class="about"></section>
+    <section id="about-me" class="about-me"></section>
   </main>
   <footer>
     <p>&copy; Copyright 2024</p>

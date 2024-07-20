@@ -1,0 +1,28 @@
+header {
+    background-color: #296a9c;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    height: 10vh;
+    color: #fff;
+}
+header>nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+header>nav>ul {
+    display: flex;
+    padding-right: 1rem;
+}
+
+header>nav>ul>li {
+    list-style: none;
+    padding: 1rem;
+}
+
+header>nav>ul>li>a {
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+}
