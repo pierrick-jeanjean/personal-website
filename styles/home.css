@@ -8,6 +8,9 @@
     color: #fff;
 }
 
+.home>div {
+    padding: 1rem;
+}
 .home>div>p {
     color: white;
     font-size: 0.75rem;
