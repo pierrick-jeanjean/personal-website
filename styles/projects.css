@@ -1,6 +1,7 @@
 .projects {
     padding: 36px 0 36px 0;
     background-color: #f1f1f1;
+    min-height: calc(100vh - 72px);
 }
 
 .projects>h2 {

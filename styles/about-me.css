@@ -1,59 +1,75 @@
 .about-me {
+    padding: 36px 0 36px 0;
+    background-color: #f1f1f1;
+    min-height: calc(100vh - 72px);
+}
+
+.about-me>h2 {
+    margin-top: 0;
+    text-align: center;
+    font-weight: 700;
+    text-decoration: underline;
+    margin: 0;
+    background: #f1f1f1;
+    text-align: center;
+}
+
+.about-me-wrapper {
     background-color: #f1f1f1;
     display: flex;
     flex-wrap: wrap;
 }
 
-.about-me>* {
+.about-me-wrapper>* {
     width: 100%;
 }
 
-.about-me>aside>.img-wrapper {
+.about-me-wrapper>aside>.img-wrapper {
     text-align: center;
 }
 
-.about-me>aside>.img-wrapper>img {
+.about-me-wrapper>aside>.img-wrapper>img {
     height: auto;
     width: 40%;
 }
 
-.about-me>aside>p {
+.about-me-wrapper>aside>p {
     text-align: justify;
     width: 90%;
     margin: 1rem auto;
 }
 
-.about-me>aside>ul {
+.about-me-wrapper>aside>ul {
     margin: 1rem auto;
     padding: 0;
     width: 90%;
 }
 
-.about-me>aside>ul>li {
+.about-me-wrapper>aside>ul>li {
     list-style: none;
 }
 
-.about-me>article>ul {
+.about-me-wrapper>article>ul {
     list-style-type: none;
     margin: 1rem;
     padding:1rem;
 }
 
-.about-me>article>ul>li {
+.about-me-wrapper>article>ul>li {
     position: relative;
     padding-bottom: 0.25rem;
     padding-left: 1.5rem;
 }
 
-.about-me>article>ul>li:not(:last-child) {
+.about-me-wrapper>article>ul>li:not(:last-child) {
     margin-bottom: 3rem;
 }
 
-.about-me>article>ul>li:last-child {
+.about-me-wrapper>article>ul>li:last-child {
     margin-bottom: 2.5rem;
 }
 
-.about-me>article>ul>li:before {
+.about-me-wrapper>article>ul>li:before {
     content: '';
     background-color: #0a1a27;
     position: absolute;
@@ -63,23 +79,23 @@
     width: 3px;
 }
 
-.about-me>article>ul>li>h3 {
+.about-me-wrapper>article>ul>li>h3 {
     font-weight: 400;
     margin-bottom: 0;
 }
 
-.about-me>article>ul>li>.dates {
+.about-me-wrapper>article>ul>li>.dates {
     padding: 0;
     margin: 0;
     font-size: 0.75rem;
 }
 
 @media (min-width:768px) {
-    .about-me>article {
+    .about-me-wrapper>article {
         width: calc(100% / 3 * 2);
     }
 
-    .about-me>aside {
+    .about-me-wrapper>aside {
         width: calc(100% / 3);
         order: -1;
     }
