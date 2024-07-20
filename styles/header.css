@@ -3,7 +3,6 @@ header {
     display: flex;
     justify-content: end;
     align-items: center;
-    height: 10vh;
     color: #fff;
 }
 header>nav {
